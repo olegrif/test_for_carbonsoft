@@ -36,8 +36,11 @@ python manage.py runserver 8081
 12. Зайти на страницу http://127.0.0.1/8081.
 
 Инструкция по установке и запуску демона (без рутовых прав)
+
 cd projects
+
 mkdir client
+
 sudo apt install curl
 
 wget - https://raw.githubusercontent.com/olegrif/test_for_carbonsoft/master/client/make_daemon.sh
@@ -45,5 +48,7 @@ wget - https://raw.githubusercontent.com/olegrif/test_for_carbonsoft/master/clie
 wget - https://raw.githubusercontent.com/olegrif/test_for_carbonsoft/master/client/send.sh
 
 chmod +x make_daemon.sh
+
 chmod +x send.sh
+
 sh make_daemon.sh
