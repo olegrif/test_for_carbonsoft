@@ -39,8 +39,11 @@ python manage.py runserver 8081
 cd projects
 mkdir client
 sudo apt install curl
+
 wget - https://raw.githubusercontent.com/olegrif/test_for_carbonsoft/master/client/make_daemon.sh
+
 wget - https://raw.githubusercontent.com/olegrif/test_for_carbonsoft/master/client/send.sh
+
 chmod +x make_daemon.sh
 chmod +x send.sh
 sh make_daemon.sh
