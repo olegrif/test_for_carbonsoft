@@ -1,0 +1,31 @@
+.body {
+	background-color: lightblue;
+}
+.mytable {
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+	border: 1px solid grey;
+}
+.tr,th,td {
+	border: 1px solid grey;
+}
+.th {
+	cursor: pointer;
+	background-color:cornflowerblue;
+}
+.thead {
+	background-color: rgb(21, 72, 88);
+}
+
+.myhead {
+	width: 910px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top:0px;
+	margin-bottom:3px;
+ }
+ .table_head{
+	background-color:red;	
+ }
