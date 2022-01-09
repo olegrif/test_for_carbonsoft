@@ -64,7 +64,7 @@ def index(request):
         print('percentage=',percentage)
         obj=CPU_usage()
         obj.check_date=datetime.datetime.now()
-        obj.percentage=int(percentage)
+        obj.percentage=percentage.replace(",",".")
         obj.save()
         #form = UserForm(request.POST)
         #if form.is_valid():
