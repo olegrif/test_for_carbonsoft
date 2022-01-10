@@ -14,8 +14,10 @@ cd projects
 3. Установить git:
 sudo apt-get install git
 4. Создать ключ ssh:
-5. Записать публичный ключ в аккакунт Github.com:
-6. Скопировать код проекта в каталог projects:
+ssh-keygen -o
+6. Записать публичный ключ в аккакунт Github.com:
+Добавить содеримого публичного ключа в Deploy keys.
+8. Скопировать код проекта в каталог projects:
 git clone https://github.com/olegrif/test_for_carbonsoft.git
 7. Установка python 3.8.
 sudo apt-get update
