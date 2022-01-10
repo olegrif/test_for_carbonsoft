@@ -32,7 +32,8 @@ python3 -m venv ~/projects/venv
 Запустить виртуальную среду:
 source ~/.virtual/bin/activate
 10. Установить пакет django.
-pip3 install django
+cd /test_for_carbonsoft
+pip3 install -r requirements.txt
 11. Запустить веб-сервер:
 python manage.py runserver 8081
 12. Зайти на страницу http://127.0.0.1/8081.
